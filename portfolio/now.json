@@ -3,10 +3,10 @@
   "name": "django-portfolio",
   "builds": [
     {
-      "src": "index.py",
-      "use": "@contextualist/python-wsgi",
+      "src": "portfolio/wsgi.py",
+      "use": "@ardnt/now-python-wsgi",
       "config": { "maxLambdaSize": "60mb" }
     }
   ],
-  "routes": [{ "src": "/.*", "dest": "/" }]
+  "routes": [{ "src": "/.*", "dest": "portfolio/wsgi.py" }]
 }
