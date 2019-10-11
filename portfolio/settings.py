@@ -25,7 +25,7 @@ SECRET_KEY = '@d=rbf=8#j1w^wh%m&fy!-zq09n76e6kl&ua#x!atjy(**k$$*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [".now.sh"]
 
 
 # Application definition
